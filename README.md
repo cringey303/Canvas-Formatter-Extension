@@ -24,6 +24,13 @@ loadable extension for each:
 ./build.sh firefox    # one target
 ```
 
+On Windows PowerShell, use the native build script instead:
+
+```powershell
+.\build.ps1
+.\build.ps1 firefox
+```
+
 Load `dist/chrome` via `chrome://extensions` → Load unpacked, or `dist/firefox`
 via `about:debugging` → Load Temporary Add-on. `dist/` is generated and ignored
 by git — edit `src/`, not the build output.
